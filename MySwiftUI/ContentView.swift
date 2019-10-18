@@ -10,7 +10,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                NavigationLink(destination: StateView()) {
+                    Text("StateView")
+                }
+                NavigationLink(destination: ObservableObjectView()) {
+                    Text("ObservableObjectView")
+                }
+                NavigationLink(destination: CustomView()) {
+                    Text("CustomView")
+                }
+                NavigationLink(destination: FormView()) {
+                    Text("FormView")
+                }
+            }
+            .navigationBarTitle(Text("MySwiftUI"), displayMode: .inline)
+        }
     }
 }
 
