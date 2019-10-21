@@ -14,7 +14,6 @@ struct Person: Identifiable {
 }
 
 class PeopleDatabase: ObservableObject {
-    
     @Published var people: [Person] = [Person(name: "Ann"), Person(name: "Steve"), Person(name: "Jack")]
 }
 
@@ -23,15 +22,20 @@ struct ObservableObjectView: View {
     @ObservedObject var peopleDatabase = PeopleDatabase()
     
     var body: some View {
-        List(peopleDatabase.people) { person in
-            Text(person.name)
-        }
-        .navigationBarTitle(Text("ObservableObjectView"), displayMode: .inline)
-        .navigationBarItems(trailing:
-            Button(action: shuffle) {
-                Text("Shuffle")
+        VStack {
+            NavigationLink(destination: ObservableObjectView2(peopleDatabase: peopleDatabase)) {
+                Text("ObservableObjectView2")
+            }.padding(.top)
+            List(peopleDatabase.people) { person in
+                Text(person.name)
             }
-        )
+            .navigationBarTitle(Text("ObservableObjectView"), displayMode: .inline)
+            .navigationBarItems(trailing:
+                Button(action: shuffle) {
+                    Text("Shuffle")
+                }
+            )
+        }
     }
     
     func shuffle() {

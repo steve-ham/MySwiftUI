@@ -1,5 +1,5 @@
 //
-//  CustomView.swift
+//  CustomUIView.swift
 //  MySwiftUI
 //
 //  Created by Steve Ham on 2019/10/18.
@@ -8,16 +8,19 @@
 
 import SwiftUI
 
-struct CustomView: View {
+struct CustomUIView: View {
     var body: some View {
         BlueView()
             .frame(width: 200, height: 200)
+//            .padding()
+//            .background(Color.purple)
+//            .clipShape(Circle())
     }
 }
 
 struct CustomView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomView()
+        CustomUIView()
     }
 }
 

@@ -17,7 +17,7 @@ struct StateView: View {
             Toggle(isOn: $isEnabled) {
                 Text("Toggle")
             }
-        }
+        }.navigationBarTitle("StateView")
     }
 }
 

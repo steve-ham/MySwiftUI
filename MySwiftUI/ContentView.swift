@@ -18,11 +18,26 @@ struct ContentView: View {
                 NavigationLink(destination: ObservableObjectView()) {
                     Text("ObservableObjectView")
                 }
-                NavigationLink(destination: CustomView()) {
-                    Text("CustomView")
+                NavigationLink(destination: EnvironmentObjectView().environmentObject(PeopleDatabase())) {
+                    Text("EnvironmentObjectView")
+                }
+                NavigationLink(destination: CustomUIView()) {
+                    Text("CustomUIView")
+                }
+                NavigationLink(destination: ListView()) {
+                    Text("ListView")
                 }
                 NavigationLink(destination: FormView()) {
                     Text("FormView")
+                }
+                NavigationLink(destination: TabbedView()) {
+                    Text("TabbedView")
+                }
+                NavigationLink(destination: AnimationView()) {
+                    Text("AnimationView")
+                }
+                NavigationLink(destination: StackView()) {
+                    Text("StackView")
                 }
             }
             .navigationBarTitle(Text("MySwiftUI"), displayMode: .inline)
