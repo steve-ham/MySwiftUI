@@ -17,7 +17,7 @@ struct StackView: View {
                 Text("LeftLeftLeftLeftLeftLeftLeft")
                 Spacer()
                 Text("RightRightRightRightRightRight")
-                .layoutPriority(1) // Default 0
+                    .layoutPriority(1) // Default 0
             }
         }
     }

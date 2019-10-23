@@ -10,15 +10,8 @@ import SwiftUI
 
 struct EnvironmentObjectView: View {
     
-    @EnvironmentObject var settings: Settings
-    
     var body: some View {
         VStack {
-            Button(action: {
-                self.settings.score += 1
-            }) {
-                Text("Increase Score")
-            }.padding(.bottom)
             NavigationLink(destination: EnvironmentObjectView2()) {
                 Text("EnvironmentObjectView2")
             }

@@ -13,7 +13,7 @@ struct StateView: View {
     
     var body: some View {
         VStack {
-            Text(isEnabled ? "Enabled" : "Not Enabled")
+            BindingView(isEnabled: $isEnabled)
             Toggle(isOn: $isEnabled) {
                 Text("Toggle")
             }
@@ -24,5 +24,12 @@ struct StateView: View {
 struct StateView_Previews: PreviewProvider {
     static var previews: some View {
         StateView()
+    }
+}
+
+struct BindingView: View {
+    @Binding var isEnabled: Bool
+    var body: some View {
+        Text(isEnabled ? "Enabled" : "Not Enabled")
     }
 }

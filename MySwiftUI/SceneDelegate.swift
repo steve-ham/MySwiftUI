@@ -10,7 +10,7 @@ import UIKit
 import SwiftUI
 
 class Settings: ObservableObject {
-    @Published var score = 0
+    @Published var score = 3
 }
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
