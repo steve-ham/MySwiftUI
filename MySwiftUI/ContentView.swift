@@ -60,6 +60,9 @@ struct ContentView: View {
                     NavigationLink(destination: ModalView()) {
                         Text("ModalView")
                     }
+                    NavigationLink(destination: ImagePickerView()) {
+                        Text("ImagePickerView")
+                    }
                 }
             }
             .navigationBarTitle(Text("MySwiftUI"), displayMode: .inline).listStyle(GroupedListStyle())
