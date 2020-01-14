@@ -64,6 +64,14 @@ struct ContentView: View {
                         Text("ImagePickerView")
                     }
                 }
+                Section(header: Text("Section 4")) {
+                    NavigationLink(destination: PickerView()) {
+                        Text("PickerView")
+                    }
+                    NavigationLink(destination: BTEmptyView()) {
+                        Text("BTEmptyView")
+                    }
+                }
             }
             .navigationBarTitle(Text("MySwiftUI"), displayMode: .inline).listStyle(GroupedListStyle())
         }
