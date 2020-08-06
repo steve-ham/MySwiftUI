@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA09A34923D3FC6B00189A46 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09A34823D3FC6B00189A46 /* ItemDetailView.swift */; };
 		AA17D9F7235D749400E200E6 /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D9F6235D749400E200E6 /* EnvironmentObjectView.swift */; };
 		AA17D9FB235D7B8600E200E6 /* EnvironmentObjectView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D9FA235D7B8600E200E6 /* EnvironmentObjectView2.swift */; };
 		AA17D9FD235D7C0800E200E6 /* ObservableObjectView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D9FC235D7C0800E200E6 /* ObservableObjectView2.swift */; };
@@ -18,9 +19,11 @@
 		AA55484323593FFC002DED25 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55484223593FFC002DED25 /* FormView.swift */; };
 		AA68ED1823CD479A00BBD289 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA68ED1723CD479A00BBD289 /* PickerView.swift */; };
 		AA68ED1A23CD4A2000BBD289 /* BTEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA68ED1923CD4A2000BBD289 /* BTEmptyView.swift */; };
+		AA70EEE8240FDEBB00DF4E72 /* EnvironmentSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA70EEE7240FDEBB00DF4E72 /* EnvironmentSheetView.swift */; };
 		AA8BD2AD23597DEA0028AF75 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BD2AC23597DEA0028AF75 /* TabbedView.swift */; };
 		AA9F4FDB235F110700E9E284 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F4FDA235F110700E9E284 /* AlertView.swift */; };
 		AAA2A65423AE3CBB00EDC1B3 /* ScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2A65323AE3CBB00EDC1B3 /* ScratchView.swift */; };
+		AAA4D2C424DBF053003AC747 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4D2C324DBF053003AC747 /* TextFieldView.swift */; };
 		AAB0AEB323ADA58700C1070F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0AEB223ADA58700C1070F /* ImagePicker.swift */; };
 		AAB0AEB523ADA7CD00C1070F /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0AEB423ADA7CD00C1070F /* ImagePickerView.swift */; };
 		AAB0FAB0235D3F3000D18BA3 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0FAAF235D3F3000D18BA3 /* LabelView.swift */; };
@@ -40,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA09A34723D3FBBC00189A46 /* MySwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySwiftUI.entitlements; sourceTree = "<group>"; };
+		AA09A34823D3FC6B00189A46 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		AA17D9F6235D749400E200E6 /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		AA17D9FA235D7B8600E200E6 /* EnvironmentObjectView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView2.swift; sourceTree = "<group>"; };
 		AA17D9FC235D7C0800E200E6 /* ObservableObjectView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView2.swift; sourceTree = "<group>"; };
@@ -51,9 +56,11 @@
 		AA55484223593FFC002DED25 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		AA68ED1723CD479A00BBD289 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		AA68ED1923CD4A2000BBD289 /* BTEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTEmptyView.swift; sourceTree = "<group>"; };
+		AA70EEE7240FDEBB00DF4E72 /* EnvironmentSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentSheetView.swift; sourceTree = "<group>"; };
 		AA8BD2AC23597DEA0028AF75 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		AA9F4FDA235F110700E9E284 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		AAA2A65323AE3CBB00EDC1B3 /* ScratchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchView.swift; sourceTree = "<group>"; };
+		AAA4D2C324DBF053003AC747 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		AAB0AEB223ADA58700C1070F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		AAB0AEB423ADA7CD00C1070F /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		AAB0FAAF235D3F3000D18BA3 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
@@ -99,6 +106,7 @@
 			children = (
 				AA17D9F6235D749400E200E6 /* EnvironmentObjectView.swift */,
 				AA17D9FA235D7B8600E200E6 /* EnvironmentObjectView2.swift */,
+				AA70EEE7240FDEBB00DF4E72 /* EnvironmentSheetView.swift */,
 			);
 			path = EnvironmentObjectView;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 		AAEC941A23589FD8006F49AC /* MySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AA09A34723D3FBBC00189A46 /* MySwiftUI.entitlements */,
 				AAEC941B23589FD8006F49AC /* AppDelegate.swift */,
 				AAEC941D23589FD8006F49AC /* SceneDelegate.swift */,
 				AAEC941F23589FD8006F49AC /* ContentView.swift */,
@@ -130,6 +139,7 @@
 				AA14CD90235EECDA001852E3 /* EnvironmentObjectView */,
 				AA55484023593D00002DED25 /* CustomUIView.swift */,
 				AAB0FAB5235D51A900D18BA3 /* ListView.swift */,
+				AA09A34823D3FC6B00189A46 /* ItemDetailView.swift */,
 				AA55484223593FFC002DED25 /* FormView.swift */,
 				AA8BD2AC23597DEA0028AF75 /* TabbedView.swift */,
 				AA35393D2359A33700F8F3A7 /* AnimationView.swift */,
@@ -144,6 +154,7 @@
 				AAC1264023ADBA0D0098DD28 /* ImageView.swift */,
 				AAB0AEB423ADA7CD00C1070F /* ImagePickerView.swift */,
 				AAB0AEB223ADA58700C1070F /* ImagePicker.swift */,
+				AAA4D2C324DBF053003AC747 /* TextFieldView.swift */,
 				AA20264B23AE6B79009FFBCF /* SegmentedPickerView.swift */,
 				AAA2A65323AE3CBB00EDC1B3 /* ScratchView.swift */,
 				AA3D416423AFB253006DEB4D /* SearchBar.swift */,
@@ -239,6 +250,7 @@
 				AAB0FAB2235D41F000D18BA3 /* StackView.swift in Sources */,
 				AAA2A65423AE3CBB00EDC1B3 /* ScratchView.swift in Sources */,
 				AAEC94302358A0A5006F49AC /* ObservableObjectView.swift in Sources */,
+				AA70EEE8240FDEBB00DF4E72 /* EnvironmentSheetView.swift in Sources */,
 				AAC1264123ADBA0D0098DD28 /* ImageView.swift in Sources */,
 				AAB0AEB523ADA7CD00C1070F /* ImagePickerView.swift in Sources */,
 				AA3D416523AFB253006DEB4D /* SearchBar.swift in Sources */,
@@ -250,6 +262,7 @@
 				AA68ED1823CD479A00BBD289 /* PickerView.swift in Sources */,
 				AA55484323593FFC002DED25 /* FormView.swift in Sources */,
 				AAEC94322358A691006F49AC /* StateAndBindingView.swift in Sources */,
+				AA09A34923D3FC6B00189A46 /* ItemDetailView.swift in Sources */,
 				AA55484123593D00002DED25 /* CustomUIView.swift in Sources */,
 				AA1BB2D723602E4F00CA3576 /* ModalView.swift in Sources */,
 				AA9F4FDB235F110700E9E284 /* AlertView.swift in Sources */,
@@ -258,6 +271,7 @@
 				AA35393E2359A33700F8F3A7 /* AnimationView.swift in Sources */,
 				AAEC941E23589FD8006F49AC /* SceneDelegate.swift in Sources */,
 				AAEC942023589FD8006F49AC /* ContentView.swift in Sources */,
+				AAA4D2C424DBF053003AC747 /* TextFieldView.swift in Sources */,
 				AAB0AEB323ADA58700C1070F /* ImagePicker.swift in Sources */,
 				AAB0FAB0235D3F3000D18BA3 /* LabelView.swift in Sources */,
 				AA17D9FD235D7C0800E200E6 /* ObservableObjectView2.swift in Sources */,
@@ -396,7 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySwiftUI/MySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 68B4J5F23V;
 				ENABLE_PREVIEWS = YES;
@@ -407,6 +423,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.braintools.MySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -416,7 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySwiftUI/MySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 68B4J5F23V;
 				ENABLE_PREVIEWS = YES;
@@ -427,6 +446,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.braintools.MySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

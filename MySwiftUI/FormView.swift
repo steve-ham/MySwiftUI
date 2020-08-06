@@ -11,9 +11,17 @@ import SwiftUI
 struct FormView: View {
     var body: some View {
         Form {
-            Text("Taxi")
-            Text("Driver")
-            Text("Parking")
+            Section {
+                Text("Taxi")
+                Text("Driver")
+                Text("Parking")
+            }
+            Section {
+                Button("Delete") {
+                    print("hsteve delete")
+                }
+                .foregroundColor(Color.red)
+            }
         }
     }
 }

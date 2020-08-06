@@ -10,9 +10,13 @@ import SwiftUI
 
 struct EnvironmentObjectView2: View {
     @EnvironmentObject var settings: Settings
-    
+    @State var showingSheet = false
     var body: some View {
-        Text("Score: \(settings.score)")
+        Button("Show") {
+            self.showingSheet = true
+        }.sheet(isPresented: $showingSheet) {
+            EnvironmentSheetView()
+        }
     }
 }
 

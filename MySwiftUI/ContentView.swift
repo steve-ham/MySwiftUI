@@ -71,6 +71,9 @@ struct ContentView: View {
                     NavigationLink(destination: BTEmptyView()) {
                         Text("BTEmptyView")
                     }
+                    NavigationLink(destination: TextFieldView()) {
+                        Text("TextFieldView")
+                    }
                 }
             }
             .navigationBarTitle(Text("MySwiftUI"), displayMode: .inline).listStyle(GroupedListStyle())
