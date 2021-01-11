@@ -27,9 +27,17 @@ struct ListView: View {
                     }
                 }
             }
+            Section(header: Text("Header2")) {
+                ForEach(users) { user in
+                    NavigationLink(destination: Text("\(user.name)")) {
+                        Text("\(user.name)")
+                            .font(.title)
+                    }
+                }
+            }
         }
         .navigationBarTitle("ListView")
-        .listStyle(GroupedListStyle())
+        .listStyle(InsetGroupedListStyle())
     }
 }
 
